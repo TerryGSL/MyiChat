@@ -3,13 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="60dp"
     android:background="#129166"
+    android:gravity="center"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center|center_horizontal"
         android:text="@string/app_name"
         android:textColor="#181E1E"
         android:textSize="20sp" />
